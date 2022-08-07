@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankPage3Fragment">
+
+    <ImageView
+        android:id="@+id/ivLpage3a"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/landing_page_3" />
+
+    <TextView
+        android:id="@+id/tvLpage3a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivLpage3a"
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Tuliskan Namamu Di bawah"
+        />
+
+    <EditText
+        android:id="@+id/etIsiNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLpage3a"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:hint="Mr/Mrs"
+        />
+
+</RelativeLayout>
